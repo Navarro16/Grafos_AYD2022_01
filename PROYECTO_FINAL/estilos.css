@@ -1,0 +1,35 @@
+body {
+    background: url("fondo.jpg"); 
+  }
+#PantallaGrafos{
+    background-color: lightgray;
+    border: 3px solid black;
+}
+#PantallaGrafos2{
+    background-color: lightgray;
+    border: 3px solid black;
+}
+#Nav-Bar{
+    background-color:darkorange;
+}
+#barra-botones{
+    background-color: darkorange;
+}
+#refresh{
+    background-color: darkorange;
+}
+#particionbtn{
+    background-color: darkorange;
+}
+#dibujarbtn{
+    background-color: darkorange;
+}
+#Aplicarbtn{
+    background-color: darkorange;
+}
+#particionbtn2{
+    background-color: darkorange;
+}
+#refresh2{
+    background-color: darkorange;
+}

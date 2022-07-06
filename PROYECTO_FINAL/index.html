@@ -33,11 +33,10 @@
                       <li><a class="dropdown-item" href="#">Cerrar</a></li>
                       <li><a class="dropdown-item" href="#">Guardar</a></li>
                       <li><a class="dropdown-item" href="#">Guardar como</a></li>
-                      <li><a class="dropdown-item" id="Exportarbtn">Exporttar datos</a></li>
+                      <li><a class="dropdown-item" id="Exportarbtn">Exportar datos</a></li>
                       <li><a class="dropdown-item" href="#">Importar Datos</a></li>
                       <li><a class="dropdown-item" href="#">Inicio</a></li>
                       <li><a class="dropdown-item" href="#">Imprimir</a></li>
-
                     </ul>
                 </li>
                 <!-- EDITAR -->
@@ -101,18 +100,20 @@
                   </ul>
                 </li>
             </ul>
+            <!-- BUSCAR -->
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
+            <!-- FIN BUSCAR -->
           </div>
         </div>
       </nav>
     <!-- FIN NAV-BAR -->
-    <!-- PANTALLA DE GRAFOS DIBUJAR -->
+    <!-- PANTALLA DE GRAFOS INTERACTIVA -->
         <center><h1>PANTALLA PARA DIBUJAR</h1></center>
         <center><canvas id="PantallaGrafos" width="1200" height="600" ></canvas></center>
-     <!-- FIN GRAFOS -->
+     <!-- FIN INTERACTIVA -->
      <center>
       <!-- TABLA UTIL -->
       <div class="btn-group" role="group" aria-label="Basic example">
@@ -124,21 +125,26 @@
       <!-- FIN TABLA UTIL -->
     </center>
     <!-- PANTALLA DE GRAFOS ESTÁTICA -->
-    <center><h1>PANTALLA ESTÁTICA</h1></center>
+        <center><h1>PANTALLA ESTÁTICA</h1></center>
         <center><canvas id="PantallaGrafos2" width="1200" height="600" ></canvas></center>
-    </main>
-    <!-- FIN ESTÁTICA -->
-    <!-- TABLA UTIL -->
-    <center>
-      <div class="btn-group" role="group" aria-label="Basic example">
+
+    <!-- FIN PANTALLA ESTÁTICA -->
+      <!-- BARRA DE BOTONES -->
+      <center>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            
+          <button id="Aplicarbtn" type="button" class="btn btn-primary">Aplicar</button>
+          <button id="refresh2" type="button" class="btn btn-primary" href="/index.html">Limpiar</button>
+          <button id="particionbtn2" type="button" class="btn btn-primary">Partición</button>
           
-        <button id="Aplicarbtn" type="button" class="btn btn-primary">Aplicar</button>
-        <button id="refresh2" type="button" class="btn btn-primary" href="/index.html">Limpiar</button>
-        <button id="particionbtn2" type="button" class="btn btn-primary">Partición</button>
-        
-      </div>
-    </center>
-    <!-- FIN TABLA UTIL -->
+        </div>
+      </center>
+      <!-- FIN BARRA DE BOTONES -->
+    </main>
+    
+    
+    
+    
     <script src="codigo.js"></script>
 </body>
 </html>

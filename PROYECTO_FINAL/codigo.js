@@ -1,3 +1,4 @@
+//INICIALIZAR VARIABLES Y ARREGLOS
 let nodes = [];
 let selectedNode = null;
 let arcos = [];
@@ -138,7 +139,7 @@ window.addEventListener('load', () => {
   var canvas2 = document.getElementById("PantallaGrafos2");
   var ctx = canvas2.getContext("2d");
   var aplicar = document.getElementById("Aplicarbtn");
-aplicar.addEventListener('click', _ =>{
+  aplicar.addEventListener('click', _ =>{
       ctx.font = "30px Arial";
       ctx.fillText("Grafo Total", 500, 80);
       /////////////////////////////////////////// LINEAS
